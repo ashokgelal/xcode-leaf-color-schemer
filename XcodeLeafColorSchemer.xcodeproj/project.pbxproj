@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9423681E313AA4003599CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9423671E313AA4003599CC /* AppDelegate.swift */; };
+		CD94236A1E313AA4003599CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9423691E313AA4003599CC /* Assets.xcassets */; };
+		CD94236D1E313AA4003599CC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD94236B1E313AA4003599CC /* MainMenu.xib */; };
+		CD9423771E313EBA003599CC /* leaf.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD9423761E313EBA003599CC /* leaf.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD9423641E313AA4003599CC /* XcodeLeafColorSchemer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeLeafColorSchemer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9423671E313AA4003599CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD9423691E313AA4003599CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD94236C1E313AA4003599CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD94236E1E313AA4003599CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9423761E313EBA003599CC /* leaf.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = leaf.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9423611E313AA4003599CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD94235B1E313AA4003599CC = {
+			isa = PBXGroup;
+			children = (
+				CD9423661E313AA4003599CC /* XcodeLeafColorSchemer */,
+				CD9423651E313AA4003599CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9423651E313AA4003599CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9423641E313AA4003599CC /* XcodeLeafColorSchemer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9423661E313AA4003599CC /* XcodeLeafColorSchemer */ = {
+			isa = PBXGroup;
+			children = (
+				CD9423761E313EBA003599CC /* leaf.icns */,
+				CD9423671E313AA4003599CC /* AppDelegate.swift */,
+				CD9423691E313AA4003599CC /* Assets.xcassets */,
+				CD94236B1E313AA4003599CC /* MainMenu.xib */,
+				CD94236E1E313AA4003599CC /* Info.plist */,
+			);
+			path = XcodeLeafColorSchemer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9423631E313AA4003599CC /* XcodeLeafColorSchemer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9423711E313AA4003599CC /* Build configuration list for PBXNativeTarget "XcodeLeafColorSchemer" */;
+			buildPhases = (
+				CD9423601E313AA4003599CC /* Sources */,
+				CD9423611E313AA4003599CC /* Frameworks */,
+				CD9423621E313AA4003599CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeLeafColorSchemer;
+			productName = XcodeLeafColorSchemer;
+			productReference = CD9423641E313AA4003599CC /* XcodeLeafColorSchemer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD94235C1E313AA4003599CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ashokgelal;
+				TargetAttributes = {
+					CD9423631E313AA4003599CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S6CF5A8MX9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD94235F1E313AA4003599CC /* Build configuration list for PBXProject "XcodeLeafColorSchemer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD94235B1E313AA4003599CC;
+			productRefGroup = CD9423651E313AA4003599CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9423631E313AA4003599CC /* XcodeLeafColorSchemer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9423621E313AA4003599CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9423771E313EBA003599CC /* leaf.icns in Resources */,
+				CD94236A1E313AA4003599CC /* Assets.xcassets in Resources */,
+				CD94236D1E313AA4003599CC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9423601E313AA4003599CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9423681E313AA4003599CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD94236B1E313AA4003599CC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD94236C1E313AA4003599CC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD94236F1E313AA4003599CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD9423701E313AA4003599CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		CD9423721E313AA4003599CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S6CF5A8MX9;
+				INFOPLIST_FILE = XcodeLeafColorSchemer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashokgelal.XcodeLeafColorSchemer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD9423731E313AA4003599CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S6CF5A8MX9;
+				INFOPLIST_FILE = XcodeLeafColorSchemer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashokgelal.XcodeLeafColorSchemer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD94235F1E313AA4003599CC /* Build configuration list for PBXProject "XcodeLeafColorSchemer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD94236F1E313AA4003599CC /* Debug */,
+				CD9423701E313AA4003599CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9423711E313AA4003599CC /* Build configuration list for PBXNativeTarget "XcodeLeafColorSchemer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9423721E313AA4003599CC /* Debug */,
+				CD9423731E313AA4003599CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD94235C1E313AA4003599CC /* Project object */;
+}
